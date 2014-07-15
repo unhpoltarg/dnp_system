@@ -1,0 +1,74 @@
+[QCA]
+Path=QCA-Q_Curve_Acquisition
+Channel File="DEM103_NMR_Setup.txt"
+RF Device=28
+QMeter Device=8
+QMeter Channels=2,3,4,5,6,7
+Yale Device=8
+Yale Channels=8,9,10
+Scan Device=1
+Data Suppliers=SCM,TTM,MWC,SMC
+Monitor Delay=60
+
+[TEB]
+Path=TEB-Target_Event_Builder
+Post Processors="OLA,TCL,PDP"
+
+[TCL]
+Path=TCL-Target_Computer_Logging
+Event File=D:\Documents and Settings\All Users\Desktop\NMR program\NMR program\events\CurrentEventFile
+Base File=D:\Documents and Settings\All Users\Desktop\NMR program\NMR program\events\CurrentBaseFile
+Fragments=EventNum,Polarization,Area,CalConst,Baseline,QMeterNum,QMeterName,MagCurrent,EIPFreq,HPFreq,uWaveFreq,uWavePower,FMAmplitude,FMOffset,ScanSweeps,ScanSteps,ScanFreq,RFFreq,RFMod,RFPower,YaleGain,DCLevel,He3Press,He3Temp,He4Temp,He4Press,RawSignal,PolySignal,SepFlow,MainFlow,MagLevel,RFVolts,LN2Level,VacPress,Comment,TopChip,BottomChip,CarbonGlass,Collector
+
+[PDP]
+Path=PDP-Polarization_Display_Panel
+Message Log=Log\pdp_messages.txt
+
+[OLA]
+Path=OLA-OnLine_Analysis
+
+[SMC]
+Path=SMC-Superconducting_Magnet_Control
+IPS Device=25
+Witness Device=13
+
+[EDL]
+Path=EDL-EPICS_Data_Logger
+
+[TTM]
+Path=TTM-Target_Temperature_Monitor
+
+[TMC]
+Path=TMC-Target_Motion_Control
+Mover Device=2
+Up Chan=15
+Down Chan=16
+Override Chan=17
+Up Readback=30
+Down Readback=31
+Status Chans=27,28,29
+Motion Delay=50
+Encoder Device=0
+Encoder Delay=500
+
+[MWC]
+Path=MWC-MicroWave Control
+Power Meter Device=1
+Power Meter Channel=7
+EIP Device=3
+FM Device=10
+Bellows Device=23
+HP Device=07
+DIO Device=2
+Tune Up Chan=3
+Tune Down Chan=5
+Switch LSB Chan=13
+Switch MSB Chan=14
+Tune Time Unit=1000
+
+[EDR]
+Path=EDR-EPICS_Data_Retriever
+Var List=ibcm1,ibcm2,LL91101,LL91111,LL91112,FI91127,LL91110,ptrunnum,ptencoder,ptpos,ISD3H002N
+
+[SCM]
+Setup File="B28_Slow_Controls.txt"

@@ -1,0 +1,110 @@
+[Active Channels]
+NumChans=5
+Channel01="Top Proton"
+Channel02="Bottom Deuteron"
+Channel03="Slot 3"
+Channel04="Slot 4"
+Channel05="Cold NMR"
+
+[Top Proton]
+ScanSweeps=200
+ScanSteps=500
+ScanFreq=15287
+ScanIntv=100
+RFFreq=213.000000
+RFMod=400
+RFPower=275
+YaleGain=1
+QMeterNum=2
+QMeterName="Top Proton"
+CalConst=2.779800
+Baseline=1046976238
+ScanGain=1
+ScanADCChan=1
+ScanDACChan=0
+Material=15NH3
+DCLevelChan=4
+QMeterTempChan=6
+
+[Bottom Deuteron]
+ScanSweeps=200
+ScanSteps=500
+ScanFreq=15287
+ScanIntv=100
+RFFreq=32.700000
+RFMod=400
+RFPower=275
+YaleGain=1
+QMeterNum=1
+QMeterName="Top Deuteron"
+CalConst=-10.000000
+Baseline=1046978398
+ScanGain=1
+ScanADCChan=5
+ScanDACChan=0
+Material=15ND3
+DCLevelChan=4
+QMeterTempChan=6
+Material=15ND3
+
+[Slot 3]
+ScanSweeps=500
+ScanSteps=500
+ScanFreq=15287
+ScanIntv=100
+RFFreq=32.700000
+RFMod=400
+RFPower=275
+YaleGain=1
+QMeterNum=3
+QMeterName="Bottom Deuteron"
+CalConst=-100.000000
+Baseline=1024599976
+ScanGain=1
+ScanADCChan=2
+ScanDACChan=0
+Material=15ND3
+DCLevelChan=5
+QMeterTempChan=7
+Material=15ND3
+
+[Slot 4]
+ScanSweeps=2000
+ScanSteps=500
+ScanFreq=15237
+ScanIntv=100
+RFFreq=213.000000
+RFMod=400
+RFPower=275
+YaleGain=1
+QMeterNum=4
+QMeterName="Bottom Proton"
+CalConst=-2.798687
+Baseline=1014228516
+ScanGain=1
+ScanADCChan=3
+ScanDACChan=0
+Material=15NH3
+DCLevelChan=5
+QMeterTempChan=7
+
+[Cold NMR]
+ScanSweeps=200
+ScanSteps=500
+ScanFreq=15287
+ScanIntv=100
+RFFreq=32.700000
+RFMod=400
+RFPower=1000
+YaleGain=1
+QMeterNum=5
+QMeterName="Cold NMR"
+CalConst=-10.000000
+Baseline=1046978398
+ScanGain=1
+ScanADCChan=4
+ScanDACChan=0
+Material=15ND3
+DCLevelChan=4
+QMeterTempChan=6
+Material=15ND3

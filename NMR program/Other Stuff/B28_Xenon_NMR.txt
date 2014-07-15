@@ -1,0 +1,86 @@
+[Active Channels]
+NumChans=4
+Channel01="Top Xenon"
+Channel02="Top Proton"
+Channel03="Bottom Xenon"
+Channel04="Bottom Proton"
+
+[Top Xenon]
+ScanSweeps=100
+ScanSteps=500
+ScanFreq=15287
+ScanIntv=100
+RFFreq=29.711000
+RFMod=30
+RFPower=275
+YaleGain=2
+QMeterNum=1
+QMeterName="Top Xenon"
+CalConst=-10.000000
+Baseline=1047663168
+ScanGain=1
+ScanADCChan=0
+ScanDACChan=0
+Material=Xenon
+DCLevelChan=4
+QMeterTempChan=6
+
+[Top Proton]
+ScanSweeps=2000
+ScanSteps=500
+ScanFreq=15287
+ScanIntv=100
+RFFreq=213.000000
+RFMod=400
+RFPower=275
+YaleGain=2
+QMeterNum=2
+QMeterName="Top Proton"
+CalConst=2.779800
+Baseline=1047413876
+ScanGain=1
+ScanADCChan=1
+ScanDACChan=0
+Material=Xenon
+DCLevelChan=4
+QMeterTempChan=6
+
+[Bottom Xenon]
+ScanSweeps=100
+ScanSteps=500
+ScanFreq=15237
+ScanIntv=100
+RFFreq=29.711000
+RFMod=100
+RFPower=275
+YaleGain=2
+QMeterNum=3
+QMeterName="Bottom Xenon"
+CalConst=-10.000000
+Baseline=-1
+ScanGain=1
+ScanADCChan=2
+ScanDACChan=0
+Material=Xenon
+DCLevelChan=5
+QMeterTempChan=7
+
+[Bottom Proton]
+ScanSweeps=500
+ScanSteps=500
+ScanFreq=15287
+ScanIntv=100
+RFFreq=213.000000
+RFMod=400
+RFPower=275
+YaleGain=1
+QMeterNum=4
+QMeterName="Bottom Proton"
+CalConst=-100.000000
+Baseline=1024599976
+ScanGain=1
+ScanADCChan=3
+ScanDACChan=0
+Material=Xenon
+DCLevelChan=5
+QMeterTempChan=7

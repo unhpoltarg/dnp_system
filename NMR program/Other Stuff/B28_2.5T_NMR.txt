@@ -1,0 +1,87 @@
+[Active Channels]
+NumChans=4
+Channel01="Top p-Butanol"
+Channel02="Proton"
+Channel03="Slot 3"
+Channel04="Slot 4"
+
+[Top p-Butanol]
+ScanSweeps=200
+ScanSteps=500
+ScanFreq=15287
+ScanIntv=100
+RFFreq=213.000000
+RFMod=400
+RFPower=275
+YaleGain=1
+QMeterNum=4
+QMeterName="Top p-Butanol"
+CalConst=-10.000000
+Baseline=-1
+ScanGain=2
+ScanADCChan=3
+ScanDACChan=0
+Material=p-Butanol
+DCLevelChan=4
+QMeterTempChan=6
+
+[Proton]
+ScanSweeps=500
+ScanSteps=500
+ScanFreq=15287
+ScanIntv=100
+RFFreq=106.5
+RFMod=300
+RFPower=275
+YaleGain=1
+QMeterNum=4
+QMeterName="Proton"
+CalConst=-10.000000
+Baseline=1065021665
+ScanGain=1
+ScanADCChan=3
+ScanDACChan=0
+Material=d-Butanol
+DCLevelChan=5
+QMeterTempChan=7
+
+[Slot 3]
+ScanSweeps=500
+ScanSteps=500
+ScanFreq=15287
+ScanIntv=100
+RFFreq=32.700000
+RFMod=400
+RFPower=275
+YaleGain=1
+QMeterNum=3
+QMeterName="Bottom Deuteron"
+CalConst=-100.000000
+Baseline=1024599976
+ScanGain=1
+ScanADCChan=2
+ScanDACChan=0
+Material=15ND3
+DCLevelChan=5
+QMeterTempChan=7
+Material=15ND3
+
+[Slot 4]
+ScanSweeps=200
+ScanSteps=500
+ScanFreq=15237
+ScanIntv=100
+RFFreq=213.000000
+RFMod=400
+RFPower=275
+YaleGain=1
+QMeterNum=4
+QMeterName="Bottom Proton"
+CalConst=-2.798687
+Baseline=1064354882
+ScanGain=1
+ScanADCChan=3
+ScanDACChan=0
+Material=15NH3
+DCLevelChan=5
+QMeterTempChan=7
