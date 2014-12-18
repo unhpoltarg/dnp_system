@@ -1,0 +1,25 @@
+LabVIEW Measurement	
+Writer_Version	2
+Reader_Version	2
+Separator	Tab
+Decimal_Separator	.
+Multi_Headings	No
+X_Columns	One
+Time_Pref	Absolute
+Operator	Polarized Target DAQ
+Date	2014/07/01
+Time	11:53:09.2890000343322753906
+***End_of_Header***	
+	
+Channels	2		
+Samples	1	1	
+Date	2014/07/01	2014/07/01	
+Time	11:53:23.1796250343322753906	11:53:23.1796250343322753906	
+X_Dimension	Time	Time	
+X0	0.0000000000000000E+0	0.0000000000000000E+0	
+Delta_X	1.000000	1.000000	
+***End_of_Header***			
+X_Value	Untitled	Untitled 1	Comment
+0.000000	217.372000	88.485200
+58.687500	217.378000	88.488100
+115.109375	217.327000	88.497300

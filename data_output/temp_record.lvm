@@ -7353,3 +7353,9 @@ X_Value,Cernox.T,CCS.T,AB.T,Comment
 0.000000,293.081100,286.931100,74.675000,12/15/2014 11:16:12 AM, Warning 1073676293 occurred at VISA Read in ellie_test.vi:Instance:4->ellie_test.vi\0D\0A\0D\0APossible reason(s):\0A\0D\0AVISA:  (Hex 0x3FFF0005) The specified termination character was read., VISA Read in ellie_test.vi:Instance:4->ellie_test.vi
 0.000000,293.065200,287.002200,74.671700,12/15/2014 11:16:46 AM, No Error, 
 0.000000,293.064500,286.976700,74.679600,12/15/2014 11:17:16 AM, Warning 1073676293 occurred at VISA Read in ellie_test.vi:Instance:4->ellie_test.vi\0D\0A\0D\0APossible reason(s):\0A\0D\0AVISA:  (Hex 0x3FFF0005) The specified termination character was read., VISA Read in ellie_test.vi:Instance:4->ellie_test.vi
+0.000000,293.097100,287.133400,74.700800,12/15/2014 1:24:17 PM, No Error, 
+0.000000,293.123200,287.058700,74.686000,12/15/2014 1:24:48 PM, No Error, 
+0.000000,293.101400,287.107800,74.701900,12/15/2014 1:25:52 PM, No Error, 
+0.000000,294.700200,291.525400,74.645400,12/15/2014 5:27:27 PM, No Error, 
+0.000000,293.400200,287.786500,74.640100,12/15/2014 5:27:33 PM, No Error, 
+0.000000,293.184500,287.182400,74.642600,12/15/2014 5:27:38 PM, Warning 1073676293 occurred at VISA Read in iTC Readout.vi:Instance:4->iTC Readout.vi\0D\0A\0D\0APossible reason(s):\0A\0D\0AVISA:  (Hex 0x3FFF0005) The specified termination character was read., VISA Read in iTC Readout.vi:Instance:4->iTC Readout.vi

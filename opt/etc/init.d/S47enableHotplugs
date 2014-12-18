@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# Enable hotplugs
+#
+if [ -f /opt/OxfordInstruments/cryosys/usbflag ] ; then
+	rm /opt/OxfordInstruments/cryosys/usbflag		
+fi
+
+echo /sbin/mdev > /proc/sys/kernel/hotplug
+

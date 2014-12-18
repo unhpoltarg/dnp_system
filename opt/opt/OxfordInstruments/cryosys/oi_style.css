@@ -1,0 +1,437 @@
+*{
+background-color: black;
+color: white;
+font: 14px "Calibri";
+}
+
+QLineEdit {
+border: 1px solid white;
+border-radius: 5px;
+}
+
+QTableView {
+border: 1px solid white;
+}
+
+QComboBox {
+border: 1px solid white;
+border-radius: 5px;
+}
+
+QPushButton {
+border: 1px solid white;
+border-radius: 6px;
+color: white;
+}
+
+QDialogButtonBox {
+border: 1px solid white;
+border-radius: 6px;
+color: white;
+}
+
+QWidget#OIPlotConfigurationDialog {
+border: 1px solid white;
+border-radius: 6px;
+padding: 3px;
+margin: 2px;
+}
+
+QFrame#OIChannelSummaryWidget {
+border: 1px solid white;
+border-radius: 6px;
+padding: 3px;
+}
+
+QFrame#comboBoxFrame, QFrame#OIKeyboardWidget, QFrame#OIErrorDialogFrame, QFrame#OIConfirmDialogFrame, QFrame#fileFrame  {
+border: 1px solid white;
+border-radius: 6px;
+}
+
+QFrame#OIChannelSummaryWidget:hover, QFrame#OIChannelSummaryWidget:pressed {
+border: 1px solid red;
+border-radius: 6px;
+padding: 3px;
+}
+
+QSpinBox {
+font: 16px;
+border: 1px solid white;
+border-radius: 5px;
+}
+
+QDoubleSpinBox {
+font: 16px;
+border: 1px solid white;
+border-radius: 5px;
+}
+
+QLabel[msgType="error"] {
+color: red;
+}
+
+QLabel[msgType="warning"] {
+color: yellow;
+}
+
+QLabel[msgType="info"] {
+color: white;
+}
+
+QLabel#HeaterTitle, QLabel#GasTitle {
+color: white;
+font: 12px;
+}
+
+#OISensorAdjScreen QLabel#labelMeasured, QLabel#labelScaled, QLabel#labelTemperature {
+color: yellow;
+}
+
+QPushButton:pressed, QPushButton:checked {
+background-color: #f79448;
+color: #BCBBD7;
+}
+
+QPushButton:disabled {
+color: black;
+background: #77797B;
+}
+
+QPushButton:enabled {
+color: white;
+}
+
+QDialoghButtonBox:pressed, QDialoghButtonBox:checked {
+background-color: #f79448;
+color: #BCBBD7;
+}
+
+QDialoghButtonBox:disabled {
+color: black;
+background: #77797B;
+}
+
+QDialoghButtonBox:enabled {
+color: white;
+}
+
+QProgressBar {
+border: 1px solid grey;
+border-radius: 5px;
+text-align: center;
+}
+
+QProgressBar:chunk {
+background-color: white;
+background: qlineargradient(x1:0,y1:1,x2:0,y2:0,stop:0 #B20000, stop:1 #FF0000);
+width: 4px;
+margin:0.5px;
+}
+
+QProgressBar#busyProgressBar {
+border: 1px solid grey;
+border-radius: 5px;
+text-align: center;
+}
+
+QProgressBar#busyProgressBar::chunk:horizontal {
+    background: qlineargradient(x1: 0, y1: 0.5, x2: 10, y2: 0.5, stop: 0 cyan, stop: 1 black);
+    margin-right: 0.5px;
+	width: 10px
+}
+	
+QTabWidget::pane {
+border: 1px solid white;
+}
+
+QTabWidget::tab-bar {
+left: 5px;
+}
+
+QWidget#OIBarImage {
+background-image: url(OIbar.png)
+}
+
+QTabBar::tab {
+height: 35px;
+width: 100px;
+background: silver;
+border: 1px solid white;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+color: black;
+}
+
+QTabBar::tab:selected {
+background: black;
+color: white;
+border-bottom-color: black;
+}
+
+QTabBar::tab:pressed {
+background: red;
+color: white;
+}
+
+QTabBar::tab:!selected {
+margin-top: 3px;
+}
+
+QTabBar::scroller {
+width: 70px;
+}
+
+QComboBox#OIComboBoxWidget {
+color: yellow;
+font: 16px;
+}
+
+QComboBox#OIComboBoxWidget:disabled {
+color: black;
+background: gray;
+}
+
+QLineEdit#OILineEditWidget {
+color: yellow;
+font: 16px;
+}
+
+QLineEdit#OILineEditWidget {
+font: 16px;
+}
+
+#OIKeyboardWidget QLineEdit#lineEdit {
+font: 18px;
+}
+
+#OIKeyboardWidget QPushButton#OIKeyboardButton {
+font: 18px;
+}
+
+#OIKeyboardWidget QDialogButtonBox#OIKeyboardButton {
+font: 18px;
+}
+
+QListWidget {
+border: 1px solid white;
+border-radius: 6px;
+selection-background-color: red;
+selection-color: white;
+}
+
+QListWidget::item {
+height: 50px;
+}
+
+QTableWidget {
+alternate-background-color: #f79448;
+gridline-color: white;
+selection-color: white;
+selection-background-color: #f79448;
+border: 1px solid white;
+border-radius: 6px;
+}
+
+QTableWidget QTableWidgetItem {
+font: 18px;
+height: 50px;
+border: 1px solid white;
+}
+
+QTableWidget QScrollBar:vertical {
+border: 1px solid white;
+width: 30px;
+margin: 25px 0px 25px 0px;
+}
+
+QTableWidget QScrollBar::handle:vertical {
+border: 1px solid white;
+min-height: 5px;
+background: solid white;
+}
+
+QTableWidget QScrollBar::add-line:vertical {
+border: 1px solid white;
+border-radius: 6px;
+height: 25px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+
+QTableWidget QScrollBar::sub-line:vertical {
+border: 1px solid white;
+border-radius: 6px;
+height: 25px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}
+
+QTableWidget QScrollBar::up-arrow:vertical, QTableWidget QScrollBar::down-arrow:vertical {
+width: 6px;
+height: 6px;
+background: solid white;
+}
+
+QTableWidget QScrollBar::add-page:vertical, QTableWidget QScrollBar::sub-page:vertical {
+background: none;
+}
+
+QTableWidget QScrollBar:horizontal {
+border: 1px solid white;
+height: 30px;
+margin: 0px 32px 0px 32px;
+}
+
+QTableWidget QScrollBar::handle:horizontal {
+border: 1px solid white;
+min-width: 15px;
+background: solid white;
+}
+
+QTableWidget QScrollBar::add-line:horizontal {
+border: 1px solid white;
+border-radius: 6px;
+width: 30px;
+subcontrol-position: right;
+subcontrol-origin: margin;
+}
+
+QTableWidget QScrollBar::sub-line:horizontal {
+border: 1px solid white;
+border-radius: 6px;
+width: 30px;
+subcontrol-position: left;
+subcontrol-origin: margin;
+}
+
+QTableWidget QScrollBar::left-arrow:horizontal, QTableWidget QScrollBar::right-arrow:horizontal  {
+width: 6px;
+height: 6px;
+background: solid white;
+}
+
+QTableWidget QScrollBar::add-page:horizontal, QTableWidget QScrollBar::sub-page:horizontal {
+background: none;
+}
+
+QTableWidget QHeaderView QTableWidgetItem {
+background: #1c1c74;
+}
+
+QLineEdit#PLineEdit[pidState=auto], QLineEdit#ILineEdit[pidState=auto], QLineEdit#DLineEdit[pidState=auto] {
+color: #f79448;
+}
+
+QLineEdit#PLineEdit[pidState=manual], QLineEdit#ILineEdit[pidState=manual], QLineEdit#DLineEdit[pidState=manual] {
+color: #BCBBD7;
+}
+
+QPushButton#btnPidAuto, QPushButton#btnHeatAuto, QPushButton#btnFlowAuto, QPushButton#btnSetKAuto {
+background-color: #1c1c74
+}
+
+QPushButton#btnPidAuto:checked, QPushButton#btnHeatAuto:checked, QPushButton#btnSetKAuto:checked, QPushButton#btnFlowAuto:checked {
+background-color: #f79448;
+}
+
+QPushButton#btnPidAuto:disabled, QPushButton#btnHeatAuto:disabled, QPushButton#btnSetKAuto:disabled, QPushButton#btnFlowAuto:disabled {
+color: black;
+background: #77797B;
+}
+
+QDoubleSpinBox::up-button {
+subcontrol-position: right;
+height: 50px;
+width: 50px;
+}
+
+QDoubleSpinBox::down-button {
+subcontrol-position: left;
+height: 50px;
+width: 50px;
+}
+
+QSpinBox::up-button {
+subcontrol-position: right;
+height: 50px;
+width: 50px;
+}
+
+QSpinBox::down-button {
+subcontrol-position: left;
+height: 50px;
+width: 50px;
+}
+
+QLabel#busyProgressLabel {
+font: 18px;
+color: cyan;
+border: 0px;
+border-radius: 0px;
+padding-top: 100px;
+}
+
+QLabel#HomeTitle, QLabel#EngModeTitle, QLabel#UpdatingTitle,  QLabel#CalibratingTitle {
+font: 18px;
+color: cyan;
+border: 1px solid white;
+border-radius: 5px;
+}
+
+QFrame#frameCurrent, QFrame#frameX, QFrame#frameY, QFrame#frameZ {
+border: 1px solid white;
+border-radius: 5px;
+}
+
+QLabel#labelNumSlaves {
+color: yellow;
+font: 24px;
+}
+
+QPushButton#btnAmpTesla:checked, QPushButton#btnAmpTesla:pressed {
+background-color: transparent;
+}
+
+QLabel#labelClamp, QLabel#labelQuench, QLabel#labelRateLimit {
+font: 22px;
+}
+
+QLabel#SenseReading {
+color: yellow;
+font: 24px;
+}
+
+QLabel#SenseTitle {
+color: white;
+font: 14px;
+}
+
+#VectorHomeCurrent #SignalTitle {
+font: 18px;
+color: white;
+}
+
+#VectorHomeVoltage #SignalTitle {
+font: 14px;
+color: white;
+}
+
+#VectorHomeCurrent #SignalValue {
+font: 22px;
+color: yellow;
+}
+
+#VectorHomeVoltage #SignalValue {
+font: 16px;
+color: yellow;
+}
+
+#MagnetHomeCurrent #SignalTitle, #MagnetHomePersist #SignalTitle, #MagnetHomeVoltage #SignalTitle {
+font: 22px;
+color: white;
+}
+
+#MagnetHomeCurrent #SignalValue, #MagnetHomePersist #SignalValue, #MagnetHomeVoltage #SignalValue {
+font: 22px;
+color: yellow;
+}
