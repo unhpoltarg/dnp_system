@@ -1,0 +1,80 @@
+LabVIEW Measurement	
+Writer_Version	2
+Reader_Version	2
+Separator	Tab
+Decimal_Separator	.
+Multi_Headings	No
+X_Columns	One
+Time_Pref	Relative
+Operator	poltarg
+Description	Recorded temperature from the Mercury iTC
+Date	2015/02/16
+Time	10:38:21.6068773269653320312
+***End_of_Header***	
+	
+Channels	9									
+Samples	1	1	1	1	1	1	1	1	1	
+Date	2015/02/16	2015/02/16	2015/02/16	2015/02/16	2015/02/16	2015/02/16	2015/02/16	2015/02/16	2015/02/16	
+Time	10:38:21.6068773269653320312	10:38:21.6068773269653320312	10:38:21.6068773269653320312	10:38:21.6068773269653320312	10:38:21.6068773269653320312	10:38:21.6068773269653320312	10:38:21.6068773269653320312	10:38:21.6068773269653320312	10:38:21.6068773269653320312	
+Y_Unit_Label	K	K	K	Ohm	Ohm	Ohm	Ohm	K	K	
+X_Dimension	Time	Time	Time	Time	Time	Time	Time	Time	Time	
+X0	0.0000000000000000E+0	0.0000000000000000E+0	0.0000000000000000E+0	0.0000000000000000E+0	0.0000000000000000E+0	0.0000000000000000E+0	0.0000000000000000E+0	0.0000000000000000E+0	0.0000000000000000E+0	
+Delta_X	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	
+***End_of_Header***										
+X_Value	Pill.T	CCS.T	AB1.T	CCS.R	Pill.R	AB1.R	AB3.R	AB3.T	NMR.T	Comment
+0.000000	330.150300	284.564700	400.000000	993.137000	36.751200	0.000000	158.950300	158.950300	307.037161	2/16/2015 10:38:18 AM;User comment =  ;No Error;
+0.000000	330.150300	284.436400	400.000000	993.086200	36.746600	0.000000	158.798600	158.798600	308.028494	2/16/2015 10:38:24 AM;User comment =  ;No Error;
+0.000000	330.150300	284.570600	400.000000	992.886100	36.749300	0.000000	158.769100	158.769100	306.139567	2/16/2015 10:38:29 AM;User comment =  ;No Error;
+0.000000	330.150300	284.558400	400.000000	993.055000	36.747500	0.000000	158.760200	158.760200	306.954893	2/16/2015 10:38:35 AM;User comment =  ;No Error;
+0.000000	330.150300	284.593900	400.000000	992.964600	36.748100	0.000000	158.560000	158.560000	307.655468	2/16/2015 10:38:52 AM;User comment =  ;No Error;
+0.000000	330.150300	284.628700	400.000000	993.166000	36.747300	0.000000	158.627600	158.627600	306.898193	2/16/2015 10:38:58 AM;User comment =  ;No Error;
+0.000000	330.150300	284.547600	400.000000	993.002600	36.751500	0.000000	158.653100	158.653100	306.513140	2/16/2015 10:39:03 AM;User comment =  ;Warning 1073676293 occurred at VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi\0D\0A\0D\0APossible reason(s):\0A\0D\0AVISA:  (Hex 0x3FFF0005) The specified termination character was read.;VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi
+0.000000	330.150300	284.593700	400.000000	993.030900	36.751100	0.000000	158.651200	158.651200	305.804608	2/16/2015 10:39:15 AM;User comment =  ;Warning 1073676293 occurred at VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi\0D\0A\0D\0APossible reason(s):\0A\0D\0AVISA:  (Hex 0x3FFF0005) The specified termination character was read.;VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi
+0.000000	330.150300	284.595000	400.000000	993.090300	36.747500	0.000000	158.669700	158.669700	306.591221	2/16/2015 10:39:23 AM;User comment =  ;No Error;
+0.000000	330.150300	284.525500	400.000000	993.102400	36.749500	0.000000	158.692500	158.692500	306.863403	2/16/2015 10:39:43 AM;User comment =  ;No Error;
+0.000000	330.150300	284.460600	400.000000	992.970200	36.749700	0.000000	158.664800	158.664800	307.598362	2/16/2015 10:39:49 AM;User comment =  ;No Error;
+0.000000	330.150300	284.547400	400.000000	993.030100	36.752000	0.000000	158.644000	158.644000	306.493182	2/16/2015 10:39:55 AM;User comment =  ;Warning 1073676293 occurred at VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi\0D\0A\0D\0APossible reason(s):\0A\0D\0AVISA:  (Hex 0x3FFF0005) The specified termination character was read.;VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi
+0.000000	330.150300	284.485700	400.000000	992.971100	36.750000	0.000000	158.658800	158.658800	307.263699	2/16/2015 10:40:03 AM;User comment =  ;Warning 1073676293 occurred at VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi\0D\0A\0D\0APossible reason(s):\0A\0D\0AVISA:  (Hex 0x3FFF0005) The specified termination character was read.;VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi
+0.000000	330.150300	284.582300	400.000000	992.994000	36.747400	0.000000	158.784600	158.784600	306.827310	2/16/2015 10:40:15 AM;User comment =  ;No Error;
+0.000000	330.150300	284.568100	400.000000	992.960200	36.748900	0.000000	158.713200	158.713200	306.648131	2/16/2015 10:40:20 AM;User comment =  ;Warning 1073676293 occurred at VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi\0D\0A\0D\0APossible reason(s):\0A\0D\0AVISA:  (Hex 0x3FFF0005) The specified termination character was read.;VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi
+0.000000	330.150300	284.533800	400.000000	992.989000	36.750200	0.000000	158.704100	158.704100	306.992065	2/16/2015 10:40:29 AM;User comment =  ;No Error;
+0.000000	330.150300	284.543800	400.000000	993.018200	36.754100	0.000000	158.767600	158.767600	307.614458	2/16/2015 10:40:35 AM;User comment =  ;No Error;
+0.000000	330.150300	284.656300	400.000000	992.894800	36.750700	0.000000	158.766600	158.766600	307.072411	2/16/2015 10:40:43 AM;User comment =  ;No Error;
+0.000000	330.150300	284.641700	400.000000	993.199300	36.749100	0.000000	158.755300	158.755300	307.469253	2/16/2015 10:40:52 AM;User comment =  ;No Error;
+0.000000	330.150300	284.561900	400.000000	993.087500	36.749000	0.000000	158.720500	158.720500	306.273556	2/16/2015 10:41:01 AM;User comment =  ;No Error;
+0.000000	330.150300	284.560900	400.000000	993.124000	36.748000	0.000000	158.726900	158.726900	305.965103	2/16/2015 10:41:06 AM;User comment =  ;No Error;
+0.000000	330.150300	284.539000	400.000000	993.066000	36.750700	0.000000	158.752300	158.752300	306.775310	2/16/2015 10:41:12 AM;User comment =  ;Warning 1073676293 occurred at VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi\0D\0A\0D\0APossible reason(s):\0A\0D\0AVISA:  (Hex 0x3FFF0005) The specified termination character was read.;VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi
+0.000000	330.150300	284.618200	400.000000	993.054700	36.751100	0.000000	158.767100	158.767100	306.302575	2/16/2015 10:41:20 AM;User comment =  ;No Error;
+0.000000	330.150300	284.540800	400.000000	993.079800	36.747300	0.000000	158.748800	158.748800	306.442727	2/16/2015 10:41:29 AM;User comment =  ;No Error;
+0.000000	330.150300	284.510200	400.000000	993.065500	36.752800	0.000000	158.758400	158.758400	307.405614	2/16/2015 10:41:34 AM;User comment =  ;No Error;
+0.000000	330.150300	284.551500	400.000000	993.082400	36.752000	0.000000	158.758000	158.758000	306.299471	2/16/2015 10:41:40 AM;User comment =  ;No Error;
+0.000000	330.150300	284.548500	400.000000	992.973400	36.752600	0.000000	158.767500	158.767500	307.123960	2/16/2015 10:41:45 AM;User comment =  ;No Error;
+0.000000	330.150300	284.581000	400.000000	993.132000	36.748600	0.000000	158.759200	158.759200	306.157398	2/16/2015 10:41:51 AM;User comment =  ;Warning 1073676293 occurred at VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi\0D\0A\0D\0APossible reason(s):\0A\0D\0AVISA:  (Hex 0x3FFF0005) The specified termination character was read.;VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi
+0.000000	330.150300	284.601300	400.000000	992.928700	36.747400	0.000000	158.743600	158.743600	307.617059	2/16/2015 10:41:59 AM;User comment =  ;Warning 1073676293 occurred at VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi\0D\0A\0D\0APossible reason(s):\0A\0D\0AVISA:  (Hex 0x3FFF0005) The specified termination character was read.;VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi
+0.000000	330.150300	284.607300	400.000000	993.134200	36.749300	0.000000	158.737400	158.737400	307.077751	2/16/2015 10:42:08 AM;User comment =  ;No Error;
+0.000000	330.150300	284.538500	400.000000	992.869800	36.756000	0.000000	158.739200	158.739200	307.393886	2/16/2015 10:42:25 AM;User comment =  ;No Error;
+0.000000	330.150300	284.598800	400.000000	993.132400	36.748200	0.000000	158.758400	158.758400	306.088674	2/16/2015 10:42:31 AM;User comment =  ;No Error;
+0.000000	330.150300	284.523800	400.000000	993.088100	36.754200	0.000000	158.766600	158.766600	307.277701	2/16/2015 10:42:59 AM;User comment =  ;No Error;
+0.000000	330.150300	284.594800	400.000000	992.879500	36.742600	0.000000	158.770500	158.770500	306.940942	2/16/2015 10:43:31 AM;User comment =  ;No Error;
+0.000000	330.150300	284.634100	400.000000	992.966300	36.747600	0.000000	158.755900	158.755900	306.337411	2/16/2015 10:43:37 AM;User comment =  ;No Error;
+0.000000	330.150300	284.623400	400.000000	992.996100	36.750800	0.000000	158.808900	158.808900	306.337411	2/16/2015 10:43:42 AM;User comment =  ;No Error;
+0.000000	330.150300	284.691600	400.000000	992.743600	36.755700	0.000000	158.814900	158.814900	306.375796	2/16/2015 10:43:48 AM;User comment =  ;No Error;
+0.000000	330.150300	284.731400	400.000000	992.778700	36.754200	0.000000	158.829100	158.829100	306.375796	2/16/2015 10:43:53 AM;User comment =  ;No Error;
+0.000000	330.150300	284.819600	400.000000	992.921500	36.747200	0.000000	158.791100	158.791100	306.637016	2/16/2015 10:44:10 AM;User comment =  ;No Error;
+0.000000	330.150300	284.635900	400.000000	992.915400	36.747900	0.000000	158.770700	158.770700	308.063459	2/16/2015 10:44:50 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.681900	400.000000	992.933200	36.750300	0.000000	158.769500	158.769500	307.202627	2/16/2015 10:44:56 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.692100	400.000000	992.784900	36.754600	0.000000	158.754000	158.754000	307.202627	2/16/2015 10:45:01 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.707500	400.000000	993.159200	36.750000	0.000000	158.796900	158.796900	307.202627	2/16/2015 10:45:19 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.495300	400.000000	992.885800	36.753000	0.000000	158.801600	158.801600	307.202627	2/16/2015 10:45:24 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.537400	400.000000	993.006600	36.756200	0.000000	158.808900	158.808900	307.202627	2/16/2015 10:45:30 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.614300	400.000000	993.086600	36.751800	0.000000	158.800600	158.800600	307.202627	2/16/2015 10:45:35 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.608400	400.000000	993.075300	36.750300	0.000000	158.825900	158.825900	307.202627	2/16/2015 10:45:49 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.548200	400.000000	992.885100	36.748600	0.000000	158.836500	158.836500	307.202627	2/16/2015 10:45:55 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.650100	400.000000	992.935900	36.752000	0.000000	158.760000	158.760000	306.777750	2/16/2015 10:46:15 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.655700	400.000000	992.907200	36.751100	0.000000	158.767100	158.767100	306.777750	2/16/2015 10:46:23 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;Warning 1073676293 occurred at VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi\0D\0A\0D\0APossible reason(s):\0A\0D\0AVISA:  (Hex 0x3FFF0005) The specified termination character was read.;VISA Read in Helium Fridge Cool-Down.vi:Instance:4->Helium Fridge Cool-Down.vi
+0.000000	330.150300	284.576200	400.000000	993.062100	36.746800	0.000000	158.754300	158.754300	306.777750	2/16/2015 10:46:32 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.507400	400.000000	992.920700	36.752200	0.000000	158.754500	158.754500	306.777750	2/16/2015 10:46:37 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.619400	400.000000	993.114100	36.745200	0.000000	158.705600	158.705600	306.777750	2/16/2015 10:46:46 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.626200	400.000000	993.110000	36.754300	0.000000	158.640700	158.640700	306.777750	2/16/2015 10:46:51 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.597100	400.000000	992.868800	36.750000	0.000000	158.656500	158.656500	306.777750	2/16/2015 10:46:57 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
+0.000000	330.150300	284.613000	400.000000	993.050700	36.748000	0.000000	158.633100	158.633100	306.777750	2/16/2015 10:47:02 AM;User comment =  Fixed iTC timeout problems, letting run for a long time to make sure it works. Also running test of Q-meter warm up.;No Error;
